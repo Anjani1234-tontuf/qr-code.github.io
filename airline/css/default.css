@@ -1,0 +1,85 @@
+div { font-family: 'Raleway', sans-serif; }
+
+#header {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/clouds.jpg);
+}
+
+#logo {
+  margin-top: 120px;
+  margin-left: 270px;
+}
+
+#search-container {
+  background-color: #243E7F;
+}
+
+#form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  color: #fff;
+  background-color: #3B5491;
+  border: 10px #3C2582 solid;
+}
+
+#submit:hover {
+  background-color: #3C2582;
+  color: white;
+}
+
+#results-container {
+  height: 300px;
+  width: 100%;
+  background-color: #3C2582;
+}
+
+#results {
+  margin-top: 50px;
+  border: 10px #3B5491 solid;
+  text-align: center;
+  background-color: white;
+}
+
+#arrival,
+#departure {
+  padding-right: 10px;
+}
+
+footer { background-color: #F2F2F0; }
+
+footer ul li {
+  display: inline-block;
+  padding: 10px;
+  float: right;
+  font-family: 'Raleway', sans-serif;
+}
+
+#footer-left { padding: 10px; }
+#footer-right { padding-top: 10px; }
+
+label {
+  padding-left: 10px;
+}
+
+button {
+  margin-left: 10px;
+}
+
+@media(max-width: 600px) {
+  #header {
+    height: 50%;
+  }
+  #logo {
+    width: 50%;
+    height: 50%;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    margin-top: 75px;
+  }
+}
+
+
+
